@@ -3,7 +3,7 @@ mongos
 
 This roles helps to install and configure the mongo query routers (mongos). 
 
-In addition to this role if combined with other roles like mongod, mongoc, shard this can used to 
+In addition to this role if combined with other roles like mongo_mongod, mongo_mongoc, mongo_shard this can used to 
 build a production grade mongodb cluster with multi replication master and shards.
   
 
@@ -36,7 +36,7 @@ mongos_chunk_size: 1                            # The chunk size when the data w
 
 - hosts: all
   roles:
-  - role: bennojoy.mongos
+  - role: bennojoy.mongo_mongos
     mongos_keyfile_dir_prefix: "/data"
     mongos_port: 2900
     mongoc_port: 2800
