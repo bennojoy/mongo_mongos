@@ -1,4 +1,4 @@
-mongos
+monog_mongos
 ========
 
 This roles helps to install and configure the mongo query routers (mongos). 
