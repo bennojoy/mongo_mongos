@@ -11,6 +11,7 @@ logappend=true
 # fork and run in background
 fork = true
 
+nohttpinterface = {{ mongos_no_http_interface }}
 port = {{ mongos_port }}
 {% set hosts = '' %}
  {% for host in mongoc_servers %}

@@ -6,3 +6,4 @@ mongos_port: 2900
 mongoc_port: 2800
 mongoc_servers: [vm1, vm2]
 mongos_chunk_size: 1
+mongos_no_http_interface: false
